@@ -1,0 +1,99 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  background-color: beige;
+}
+
+header {
+  padding: 25px 0;
+}
+p{
+  font-size: 30px
+}
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+.container{
+	max-width: 100%;
+	width: 1500px
+
+}
+
+header h1 {
+  font-weight: 700;
+  margin: 0;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header p {
+  padding: 0 20px;
+  margin-left: 40px;
+}
+
+.cabeza {
+  background-image: url('../image/banner.jpg');
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+  border-radius: 25px;
+}
+
+
+
+.textoa{
+	display: flex;
+	row: 2;
+	justify-content: center;
+	padding: 30px;
+	background-color: white;
+}
+
+.textob{
+	display: flex;
+	row: 2;
+	align-content: center;
+	padding: 30px;
+	background-color: white;
+}
+
+.textoa img {
+	height: 400px;
+	width: 600px;
+	padding: 30px;
+
+}
+
+.textob img{
+	height: 400px;
+	width: 600px;
+	padding: 30px;
+}
+img {
+  border-radius: 30px;
+}
+
+
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
